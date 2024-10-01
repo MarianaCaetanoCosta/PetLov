@@ -1,4 +1,5 @@
 ## 🤘 Sobre
+Curso ministrado por Fernando Papito
 
 Projeto Petlov para o treinamento de automação de testes com Java e JUnit 5
 
@@ -6,6 +7,7 @@ Projeto Petlov para o treinamento de automação de testes com Java e JUnit 5
 - Selenium Webdriver 4.20.0
 - JDK 21
 - JUnit 5
+- Solenide
 
 ## 🤖 Como executar
 
@@ -13,3 +15,11 @@ Projeto Petlov para o treinamento de automação de testes com Java e JUnit 5
 ```
 mvn test
 ```
+
+## Projeto
+
+![Cadastro Ponto de Doação](target/imagens/CadastroPontoDeDoacao.jpg)
+
+![Formulario de Cadastro](target/imagens/Cadastro.jpg)
+
+![Cadastro Concluido](target/imagens/CadastroRealizadocomSucesso.jpg)

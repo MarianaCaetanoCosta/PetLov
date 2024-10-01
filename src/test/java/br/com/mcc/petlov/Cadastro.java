@@ -71,8 +71,7 @@ class Cadastro {
 		driver.findElement(By.className("button-register")).click();
 
 		//Cadastro realizado com sucesso
-		WebElement result = driver.findElement(By.xpath("/html//div[@id='success-page']//p"));//(By.cssSelector("success-page p"));
-
+		WebElement result = driver.findElement(By.cssSelector("#success-page p"));
 		Wait<WebDriver> waitResult = new WebDriverWait(driver, Duration.ofSeconds(2));
 		waitResult.until(d -> result.isDisplayed());
 
